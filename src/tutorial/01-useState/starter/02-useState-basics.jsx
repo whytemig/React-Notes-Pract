@@ -9,7 +9,6 @@ const UseStateBasics = () => {
   // console.log(value, handler);
 
   const [count, setCount] = useState(0)
-  const [name, setName] = useState('')
 
   const goUp = () => {
     setCount(count + 1)
